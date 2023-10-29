@@ -28,6 +28,8 @@ body {
     justify-content: center;
     padding-top: 16px;
     padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     gap: 70px;
 }
 
@@ -47,8 +49,6 @@ body {
 .top {
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 150px;
     min-width: 50px;
     flex-wrap: wrap;
 }
@@ -75,9 +75,8 @@ a {
 
 .bottom {
     justify-content: space-between;
+    padding-bottom: 50px;
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -120,6 +119,11 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 50px;
 }
 
 .info-text {
@@ -132,18 +136,26 @@ p {
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 
 .container p {
     color: #6d7584;
+    font-size: 18px;
     font-weight: 200;
+    text-align: center;
 }
 
 .article-preview img {
-    width:  250px;
-    height: 250px;
+    width:  220px;
+    height: 220px;
     object-fit: cover;
     border: #3882F6 5px solid;
     border-radius: 20px;
+}
+
+.article {
+    flex: 1;
 }
 
