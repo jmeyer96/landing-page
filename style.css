@@ -90,9 +90,14 @@ img {
 .button {
     padding: 10px 20px;
     background-color: #3882F6;
-    box-shadow: #F9FAF8;;
     color:#F9FAF8;
+    border: 0;
     font-weight: 900;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: burlywood;
 }
 
 p { 
