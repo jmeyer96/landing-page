@@ -29,6 +29,7 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
+    padding-bottom: 20px;
     flex-shrink: 0;
 }
 
@@ -42,6 +43,7 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     min-width: 50px;
+    flex-wrap: wrap;
 }
 
 ul {
