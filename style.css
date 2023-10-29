@@ -5,11 +5,18 @@ font-family: "roboto";
 
 }
 
+html, 
 body {
-    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
 }
 
 .header {
@@ -72,7 +79,7 @@ a {
     padding-left: 150px;
     padding-right: 150px;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
 }
 
 .text {
@@ -84,6 +91,9 @@ a {
 .h-img > img {
     vertical-align: bottom;
     border: #6e7e9f solid 10px;
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
 }
 
 .button {
@@ -103,3 +113,37 @@ p {
     text-align: justify;
     font-weight: 100;
 }
+
+.information-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.container p {
+    color: #6d7584;
+    font-weight: 200;
+}
+
+.article-preview img {
+    width:  250px;
+    height: 250px;
+    object-fit: cover;
+    border: #3882F6 5px solid;
+    border-radius: 20px;
+}
+
