@@ -222,3 +222,13 @@ p {
     font-weight: 700;
 }
 
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 150px;
+}
+
