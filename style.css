@@ -81,12 +81,9 @@ a {
     color:#F9FAF8;
 }
 
-.h-img {
-    border: #6e7e9f solid 10px;
-}
-
-img {
+.h-img > img {
     vertical-align: bottom;
+    border: #6e7e9f solid 10px;
 }
 
 .button {
